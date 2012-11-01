@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE tweets SYSTEM "data/Tweet.dtd"> -->
+<tweets>
+	<tweet id="39816789760278528" created_at="Mon, 21 Feb 2010 22:40:37 +0000">
+		<from_user_id>14545677</from_user_id>
+		<from_user>Igor</from_user>
+		<to_user_id>29795153</to_user_id>
+		<iso_language_code>en</iso_language_code>
+		<result_type>recent</result_type>
+		<profile_image_url>http://a3.twimg.com/profile_images/1250440300/images_normal.jpg</profile_image_url>
+		<source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</source>
+		<text>it's test1</text>
+		<geo_id>1</geo_id>
+		<!-- <geo_coordinates>33.203000000000003,-87.540300000000002</geo_coordinates> 
+			<geo_type>Point</geo_type> <place_full_name>Rockwall, TX</place_full_name> 
+			<place_id>83dbcd1fcc988949</place_id> <place_type>city</place_type> -->
+	</tweet>
+	<tweet id="49816789760278529" created_at="Tue, 22 Feb 2011 22:40:37 +0000">
+		<from_user_id>213214325</from_user_id>
+		<from_user>Wei Chen</from_user>
+		<to_user_id>29795153</to_user_id>
+		<iso_language_code>en</iso_language_code>
+		<result_type>recent</result_type>
+		<profile_image_url>http://a3.twimg.com/profile_images/1250440300/images_normal.jpg</profile_image_url>
+		<source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</source>
+		<text>it's test1</text>
+		<geo_id>2</geo_id>
+		<!-- <geo_coordinates>{33.203000000000003,-87.540300000000002}</geo_coordinates> 
+			<geo_type>Point</geo_type> <place_full_name>Rockwall, TX</place_full_name> 
+			<place_id>83dbcd1fcc988949</place_id> <place_type>city</place_type> -->
+	</tweet>
+	<tweet id="59816789760278529" created_at="Wed, 23 Feb 2012 22:40:37 +0000">
+		<from_user_id>323213124</from_user_id>
+		<from_user>Yu Qiao</from_user>
+		<to_user_id>29795153</to_user_id>
+		<iso_language_code>en</iso_language_code>
+		<result_type>recent</result_type>
+		<profile_image_url>http://a3.twimg.com/profile_images/1250440300/images_normal.jpg</profile_image_url>
+		<source>&lt;a href=&quot;http://twitter.com/&quot;&gt;web&lt;/a&gt;</source>
+		<text>it's test3</text>
+		<geo_id>3</geo_id>
+		<!-- <geo_coordinates>33.203000000000003,-87.540300000000002</geo_coordinates> 
+			<geo_type>Point</geo_type> <place_full_name>Rockwall, TX</place_full_name> 
+			<place_id>83dbcd1fcc988949</place_id> <place_type>city</place_type> -->
+	</tweet>
+</tweets>

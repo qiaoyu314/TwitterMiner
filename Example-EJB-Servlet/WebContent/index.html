@@ -1,0 +1,38 @@
+<!-- Plain HTML page that kicks us into the app -->
+
+<html>
+<head>
+    <!--For iPhone-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyBCUJrJ8VqAyahonwNz0VmXONc0Tdo-8e8"
+        type="text/javascript"></script>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+    <title>Twitter Enterprise Java Application--CSE 769--Wei Chen(David), Yu Qiao, Igor Tolkachev</title>
+
+</head>
+<body onload="init()">
+	<h1 >Twitter Miner</h1>
+	<div id="leftPanel" title="leftPanel" style="float: left;" >
+		<div id="inputContainer" title="inputContainer" style="float: left; margin-bottom: 5px;">
+			<form action="SearchServlet" method="get" >
+				<div>Search Tweets and map them out by choosing following
+					options:</div>
+				<input type="checkbox" id="checkKeyword"/> By keywords
+				<input type="text" id="keywordList" value="pizza"/> (comma seperated)<br />
+				<div style="float: left">
+				<input type="checkbox" id="checkLocation"/> By locations
+				<input type="text" id="locationList" value="TX"/>
+				(comma seperated)
+				</div>
+				<input type="button" value="Search" style="float:left; margin-left:5px;" onclick="loadData()"></input>
+			</form>
+		</div>
+		<div id="map" title="Map" style="float: left; border: thin grey solid"></div>
+	</div>
+	<div id="resultContainer" title="Result" style="float:left; ">No results yet...
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+	font-family: verdana,ariel,helvetica,sans-serif;
+	font-size: 100%;
+	cursor:default;
+	background-color:white;
+	margin-left: 2%; 
+	margin-right: 2%;
+	background:#7fd9fa;
+}
+h1{
+	margin:0px;
+	font-family: cursive;
+	font-size: 38;
+}
+form{
+	font-size: 80%;
+}
+input[type="text"] {
+    border: 0px solid #006;
+    background: #ffc;
+}
+input[type="button"] {
+    border: 1px solid #006;
+    background: #9cf;
+}
+
+input[type="text"]:hover {
+    border: 1px solid #f00;
+    background: #ff6;
+}
+input[type="button"]:hover {
+    border: 1px solid #f00;
+    background: #eef;
+}
+table{
+	font-size: 70%;
+	overflow: auto;
+	background: #ffc;
+}
+th{
+	border: thin solid grey;
+}
+td{
+	border: thin solid grey;
+	margin:0px;
+	padding: 0px;
+}
+div.info{
+	font-size:60%;
+	margin:0px;
+	padding:0px;
+}
